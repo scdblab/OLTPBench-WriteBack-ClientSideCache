@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<parameters>
+    <!-- Connection details -->
+    <dbtype>mysql</dbtype>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <DBUrl>jdbc:mysql://10.0.0.220:3306/tpcc?serverTimezone=UTC&amp;useSSL=false&amp;rewriteBatchedStatements=true</DBUrl>
+    <username>hieun</username>
+    <password>golinux</password>
+    <isolation>TRANSACTION_SERIALIZABLE</isolation>
+    <cache>10.0.0.210:11211</cache>
+    <cafe>true</cafe>
+    <logging>true</logging>
+    <cachepolicy>WRITE_BACK</cachepolicy>
+    <uploadUrl>/home/hieun/Desktop/tpcc</uploadUrl>
+    
+    <!-- Scale factor is the number of warehouses in TPCC -->
+    <scalefactor>1</scalefactor>
+    
+    <!-- The workload -->
+    <terminals>1000</terminals>
+    <works>
+        <work>
+          <time>100</time>
+          <rate>unlimited</rate>	
+<!--           <weights>45,43,4,4,4</weights> -->
+<!--           <weights>0,0,48,4,48</weights>
+           <weights>45,43,4,4,4</weights>-->
+ 				<weights>45,43,4,4,4</weights>
+        </work>
+    </works>
+	
+	<!-- TPCC specific -->  
+   	<transactiontypes>
+    	<transactiontype>
+    		<name>NewOrder</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>Payment</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>OrderStatus</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>Delivery</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>StockLevel</name>
+    	</transactiontype>
+   	</transactiontypes>	
+</parameters>

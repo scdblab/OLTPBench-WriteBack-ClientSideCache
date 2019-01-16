@@ -1,0 +1,48 @@
+bin/
+/build/
+output.raw
+output.res
+.classpath
+.settings
+/results/
+/traces/
+/extras/
+
+## -------------------------------
+## Kate Swap Files
+## -------------------------------
+*.kate-swp
+.#kate-*
+
+## -------------------------------
+## Backup artifacts
+## -------------------------------
+~*
+*~
+
+# maven output
+target
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+tpcc_logs
+smallbank_logs
+
+bwWriter.txt
+sessWriter.txt
+log*.txt

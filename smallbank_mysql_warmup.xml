@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<parameters>
+
+    <!-- Connection details -->
+    <dbtype>mysql</dbtype>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <DBUrl>jdbc:mysql://h0:3306/smallbank?serverTimezone=UTC</DBUrl>
+    <username>hieun</username>
+    <password>golinux</password>    
+    <!--<isolation>TRANSACTION_READ_COMMITTED</isolation>-->
+    <isolation>TRANSACTION_SERIALIZABLE</isolation>
+    <cache>h1:11211</cache>
+    <cafe>false</cafe>
+    <logging>false</logging>
+    
+    <scalefactor>1</scalefactor>
+    
+    <!-- The workload -->
+    <terminals>100</terminals>
+    <works> 
+        <work>
+          <time>300</time>
+          <rate>unlimited</rate>
+          <!-- <weights>15,15,15,25,15,15</weights>-->
+          <weights>0,100,0,0,0,0</weights>
+        </work>
+    </works>
+        
+    <!-- SmallBank Procedures declaration -->
+    <transactiontypes>
+        <transactiontype>
+            <name>Amalgamate</name>
+        </transactiontype>
+        <transactiontype>
+            <name>Balance</name>
+        </transactiontype>
+        <transactiontype>
+            <name>DepositChecking</name>
+        </transactiontype>
+        <transactiontype>
+            <name>SendPayment</name>
+        </transactiontype>
+        <transactiontype>
+            <name>TransactSavings</name>
+        </transactiontype>
+        <transactiontype>
+            <name>WriteCheck</name>
+        </transactiontype>
+    </transactiontypes>
+</parameters>
