@@ -11,5 +11,7 @@ It is important to read the above DBLAB technical report prior to reading the re
 TPC-C consists of 5 transactions.  For each transaction, we provide a table that details each SQL statement of that transaction, whether it reads or writes a cache entry, key of the cache entry that it reads or writes, the mapping it looks up in case of a read cache miss, and the mapping that is updated by one of its writes. There are 5 tables, one per transaction, as follows:
 
 New-Order Transaction:
-![My image](https://drive.google.com/file/d/112x2cAreEMNzXLBDqTdi3AifHAuPHyMk/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/112x2cAreEMNzXLBDqTdi3AifHAuPHyMk/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=112x2cAreEMNzXLBDqTdi3AifHAuPHyMk)
+
+Payment Transaction:
+![image](https://drive.google.com/uc?export=view&id=1bUJvmrDxS51UsutJoa0krZwZKwJ_4FR2)
