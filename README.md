@@ -3,8 +3,7 @@ This is the implementation of TPC-C using a client-side cache with the write-bac
 1.  Version of memcached that supports S and X leases along with the concept of pinning buffered writes, https://github.com/scdblab/IQ-WhalinTwemcache
 2. The cache library used by TPC-C implementation, https://github.com/scdblab/cafe
 
-This project was used to gather performance numbers reported in:
-Shahram Ghandeharizadeh and Hieu Nguyen.  [Design, Implementation, and Evaluation of Write-Back Policy with Cache Augmented Data Stores.](http://dblab.usc.edu/Users/papers/writeback.pdf)  USC Database Laboratory Technical Report Number 2018-07.
+This project was used to gather performance numbers reported in:  Shahram Ghandeharizadeh and Hieu Nguyen.  [Design, Implementation, and Evaluation of Write-Back Policy with Cache Augmented Data Stores.](http://dblab.usc.edu/Users/papers/writeback.pdf)  USC Database Laboratory Technical Report Number 2018-07.
 
 It is important to read the above DBLAB technical report prior to reading the rest of this readme file.
 
