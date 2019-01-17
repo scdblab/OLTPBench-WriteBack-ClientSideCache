@@ -15,3 +15,12 @@ New-Order Transaction:
 
 Payment Transaction:
 ![image](https://drive.google.com/uc?export=view&id=1bUJvmrDxS51UsutJoa0krZwZKwJ_4FR2)
+
+Delivery Transaction:
+![image](https://drive.google.com/uc?export=view&id=1j9RU_kfVv7LwVWfLVEcR3kGsv4IF_os9)
+
+Order-Status Transaction:
+![image](https://drive.google.com/uc?export=view&id=1e7aSxOjILdLETaM8U5fvUKgw48bUVgCJ)
+
+Stock-Level Transaction:
+![image](https://drive.google.com/uc?export=view&id=1_eBQtHH8M4rp1pcfNt3baKmqnDGkXNy4)
